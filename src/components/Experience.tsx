@@ -1,72 +1,89 @@
-import { Briefcase, Calendar } from 'lucide-react';
-import { Experience as ExperienceType } from '../types';
+import { Briefcase, Calendar } from "lucide-react";
+import { Experience as ExperienceType } from "../types";
 
 export default function Experience() {
   const experiences: ExperienceType[] = [
     {
-      id: '1',
-      company: 'Tech Innovations Inc.',
-      logo: 'TI',
-      role: 'Senior Full Stack Developer',
-      duration: 'Jan 2022 - Present',
+      id: "1",
+      company: "Cyberinfomines Technologies Pvt Ltd",
+      logo: "CT",
+      role: "Technical Trainer (DSA)",
+      duration: "Nov 2025 - Present",
       responsibilities: [
-        'Led development of microservices architecture serving 100K+ daily users',
-        'Architected and implemented RESTful APIs and GraphQL endpoints',
-        'Mentored team of 5 junior developers on best practices and code reviews',
-        'Optimized database queries reducing response time by 60%',
+        "Delivered structured training sessions on Data Structures and Algorithms (DSA)",
+        "Helped students improve logical thinking and coding efficiency",
+        "Reviewed student code and provided constructive feedback",
+        "Prepared and shared practice problems, assignments, and study material",
       ],
       achievements: [
-        'Reduced application load time by 45% through code optimization',
-        'Implemented CI/CD pipeline increasing deployment frequency by 3x',
-        'Received "Outstanding Performance" award for Q3 2023',
+        "Successfully trained multiple batches of students in DSA fundamentals",
+        "Improved student problem-solving skills and coding confidence",
+        "Received positive feedback for clear explanations and teaching methodology",
       ],
       tools: [
-        'React',
-        'Node.js',
-        'PostgreSQL',
-        'Docker',
-        'AWS',
-        'Redis',
-        'TypeScript',
+        "C++",
+        "Java",
+        "Data Structures",
+        "Algorithms",
+        "Problem Solving",
+        "Competitive Programming",
       ],
     },
     {
-      id: '2',
-      company: 'Digital Solutions Co.',
-      logo: 'DS',
-      role: 'Full Stack Developer',
-      duration: 'Mar 2020 - Dec 2021',
+      id: "2",
+      company: "Zircog Technologies",
+      logo: "ZT",
+      role: "Software Developer",
+      duration: "May 2025 - Nov 2025",
       responsibilities: [
-        'Developed and maintained multiple client-facing web applications',
-        'Collaborated with UX team to implement responsive, accessible designs',
-        'Built and documented RESTful APIs for mobile and web clients',
-        'Performed code reviews and participated in agile ceremonies',
+        "Worked on backend development using Java and Spring Boot",
+        "Developed and maintained RESTful APIs for business applications",
+        "Tested APIs and workflows using Postman",
+        "Used Python for scripting, automation, and backend utilities",
       ],
       achievements: [
-        'Delivered 15+ projects on time and within budget',
-        'Improved test coverage from 45% to 85%',
-        'Recognized as "Developer of the Quarter" twice',
+        "Contributed to scalable and maintainable backend services",
+        "Improved application performance through caching and query optimization",
+        "Successfully delivered assigned modules within project timelines",
       ],
-      tools: ['React', 'Express.js', 'MongoDB', 'Jest', 'Git', 'Agile'],
+      tools: [
+        "Java",
+        "Spring Boot",
+        "Python",
+        "Redis",
+        "Apache Kafka",
+        "SQL",
+        "Postman",
+      ],
     },
     {
-      id: '3',
-      company: 'StartupHub',
-      logo: 'SH',
-      role: 'Junior Developer',
-      duration: 'Jun 2019 - Feb 2020',
+      id: "3",
+      company: "Adda247",
+      logo: "A24",
+      role: "Software Engineer",
+      duration: "Oct 2024 - May 2025",
       responsibilities: [
-        'Contributed to frontend development using React and modern JavaScript',
-        'Fixed bugs and implemented new features based on user feedback',
-        'Participated in daily standups and sprint planning sessions',
-        'Wrote unit tests and maintained documentation',
+        "Developed and maintained backend services using Java and Spring Boot",
+        "Designed and implemented RESTful APIs for core application features",
+        "Integrated Redis for caching to improve system performance",
+        "Wrote and optimized SQL queries for efficient data handling",
       ],
       achievements: [
-        'Successfully completed 50+ feature requests',
-        'Reduced bug count by 30% through proactive testing',
-        'Completed internal training certification program',
+        "Improved API response time by implementing Redis caching",
+        "Successfully handled high-volume data processing using Kafka",
+        "Contributed to stable and scalable backend systems in production",
       ],
-      tools: ['React', 'JavaScript', 'HTML/CSS', 'Git', 'JIRA'],
+      tools: [
+        "Java",
+        "Spring Boot",
+        "Redis",
+        "Apache Kafka",
+        "SQL",
+        "JIRA",
+        "Elasticsearch",
+        "Kibana",
+        "Postman",
+      ],
     },
   ];
 
@@ -90,7 +107,9 @@ export default function Experience() {
             <div
               key={exp.id}
               className={`relative mb-12 ${
-                index % 2 === 0 ? 'md:ml-0 md:mr-auto md:pr-12' : 'md:ml-auto md:mr-0 md:pl-12'
+                index % 2 === 0
+                  ? "md:ml-0 md:mr-auto md:pr-12"
+                  : "md:ml-auto md:mr-0 md:pl-12"
               } md:w-1/2`}
             >
               <div className="absolute left-8 md:left-auto md:right-[-17px] w-8 h-8 bg-blue-600 dark:bg-blue-400 rounded-full border-4 border-white dark:border-slate-800 z-10"></div>

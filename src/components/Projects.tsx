@@ -17,117 +17,137 @@ export default function Projects() {
         "User authentication & role management",
         "Responsive and modern UI",
       ],
-      techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'JWT Auth', 'Firebase'],
+      techStack: [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "JWT Auth",
+        "Firebase",
+      ],
       architecture: "Microservices with event-driven architecture",
       githubUrl: "https://github.com/AyushSaxena2004/project_1",
       liveUrl: "https://ayushsaxena2004.github.io/project_1/",
-      imageUrl:
-        "Project_1.png",
+      imageUrl: "Project_1.png",
       isFeatured: true,
     },
     {
       id: "2",
-      title: "Project Management SaaS",
-      description: "Collaborative tool for agile teams with real-time updates",
+      title: "JhumkaKart – Jhumka Store",
+      description:
+        "A modern e-commerce platform for beautifully crafted traditional jhumkas.",
       problem:
-        "Teams struggled with fragmented communication and task tracking",
+        "Local jhumka sellers lack a dedicated online platform to showcase multiple varieties, manage products, and sell directly to customers.",
       role: "Full Stack Developer",
       features: [
-        "Kanban boards",
-        "Real-time collaboration",
-        "Time tracking",
-        "Sprint planning",
+        "collections (Oxidised, Silver, Traditional)",
+        "Product listing with categories",
+        "Responsive design for mobile & desktop",
+        "Secure and user-friendly UI",
       ],
-      techStack: ["Next.js", "Express.js", "MongoDB", "WebSockets"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-      imageUrl:
-        "Project_2.png",
+      techStack: [
+        "React.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Supabase",
+        "PostgreSQL",
+      ],
+      githubUrl: "https://github.com/khushi036/E_commerce-website.git",
+      liveUrl: "https://github.com/khushi036/E_commerce-website.git",
+      imageUrl: "Project_2.png",
       isFeatured: true,
     },
     {
       id: "3",
-      title: "AI-Powered Analytics Dashboard",
-      description: "Business intelligence platform with predictive analytics",
-      problem: "Companies needed actionable insights from complex data sets",
-      role: "Frontend Lead",
+      title: "Kitaab Store",
+      description:
+        "A modern online platform to buy and sell books at the best prices.",
+      problem:
+        "Readers and sellers lack a simple digital platform to buy, sell, and discover books easily at affordable prices.",
+      role: "MERN Stack Developer",
       features: [
-        "Interactive data visualization",
-        "Predictive models",
-        "Custom reports",
-        "API integrations",
+        "Buy and sell books online",
+        "Clean and user-friendly UI",
+        "Responsive design for all devices",
+        "Search books by title and category",
       ],
-      techStack: ["React", "TypeScript", "D3.js", "Python", "TensorFlow"],
+      techStack: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Firebase",
+        "Tailwind CSS",
+      ],
       architecture: "Serverless architecture with AWS Lambda",
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-      imageUrl:
-        "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg",
+      githubUrl: "https://github.com/AyushSaxena2004/KITAAB_STORE.git",
+      liveUrl: "https://github.com/AyushSaxena2004/KITAAB_STORE.git",
+      imageUrl: "Project_3.png",
       isFeatured: true,
     },
-    {
-      id: "4",
-      title: "Social Media Scheduler",
-      description: "Automate social media posts across multiple platforms",
-      problem: "Content creators spent hours manually posting across platforms",
-      role: "Solo Developer",
-      features: [
-        "Multi-platform support",
-        "Content calendar",
-        "Analytics",
-        "Bulk scheduling",
-      ],
-      techStack: ["React", "Node.js", "MongoDB", "OAuth2"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-      imageUrl:
-        "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg",
-      isFeatured: false,
-    },
-    {
-      id: "5",
-      title: "Real Estate Portal",
-      description: "Property listing platform with virtual tours",
-      problem:
-        "Property searches were inefficient and lacked immersive experiences",
-      role: "Backend Developer",
-      features: [
-        "Advanced search filters",
-        "360° virtual tours",
-        "Mortgage calculator",
-        "Agent messaging",
-      ],
-      techStack: ["React", "Node.js", "PostgreSQL", "AWS S3"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-      imageUrl:
-        "https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg",
-      isFeatured: false,
-    },
-    {
-      id: "6",
-      title: "Fitness Tracking App",
-      description: "Personal fitness companion with workout plans",
-      problem:
-        "Users needed personalized fitness guidance and progress tracking",
-      role: "Full Stack Developer",
-      features: [
-        "Custom workout plans",
-        "Progress tracking",
-        "Nutrition logging",
-        "Social challenges",
-      ],
-      techStack: ["React Native", "Node.js", "MongoDB", "GraphQL"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-      imageUrl:
-        "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg",
-      isFeatured: false,
-    },
+    // {
+    //   id: "4",
+    //   title: "Social Media Scheduler",
+    //   description: "Automate social media posts across multiple platforms",
+    //   problem: "Content creators spent hours manually posting across platforms",
+    //   role: "Solo Developer",
+    //   features: [
+    //     "Multi-platform support",
+    //     "Content calendar",
+    //     "Analytics",
+    //     "Bulk scheduling",
+    //   ],
+    //   techStack: ["React", "Node.js", "MongoDB", "OAuth2"],
+    //   githubUrl: "https://github.com",
+    //   liveUrl: "https://example.com",
+    //   imageUrl:
+    //     "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg",
+    //   isFeatured: false,
+    // },
+    // {
+    //   id: "5",
+    //   title: "Real Estate Portal",
+    //   description: "Property listing platform with virtual tours",
+    //   problem:
+    //     "Property searches were inefficient and lacked immersive experiences",
+    //   role: "Backend Developer",
+    //   features: [
+    //     "Advanced search filters",
+    //     "360° virtual tours",
+    //     "Mortgage calculator",
+    //     "Agent messaging",
+    //   ],
+    //   techStack: ["React", "Node.js", "PostgreSQL", "AWS S3"],
+    //   githubUrl: "https://github.com",
+    //   liveUrl: "https://example.com",
+    //   imageUrl:
+    //     "https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg",
+    //   isFeatured: false,
+    // },
+    // {
+    //   id: "6",
+    //   title: "Fitness Tracking App",
+    //   description: "Personal fitness companion with workout plans",
+    //   problem:
+    //     "Users needed personalized fitness guidance and progress tracking",
+    //   role: "Full Stack Developer",
+    //   features: [
+    //     "Custom workout plans",
+    //     "Progress tracking",
+    //     "Nutrition logging",
+    //     "Social challenges",
+    //   ],
+    //   techStack: ["React Native", "Node.js", "MongoDB", "GraphQL"],
+    //   githubUrl: "https://github.com",
+    //   liveUrl: "https://example.com",
+    //   imageUrl:
+    //     "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg",
+    //   isFeatured: false,
+    // },
   ];
 
   const featuredProjects = projects.filter((p) => p.isFeatured);
-  const otherProjects = projects.filter((p) => !p.isFeatured);
+  // const otherProjects = projects.filter((p) => !p.isFeatured);
 
   return (
     <section
@@ -255,7 +275,7 @@ export default function Projects() {
           ))}
         </div>
 
-        <div>
+        {/* <div>
           <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">
             More Projects
           </h3>
@@ -311,7 +331,7 @@ export default function Projects() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
