@@ -42,7 +42,7 @@ export default function Projects() {
       githubUrl: "https://github.com",
       liveUrl: "https://example.com",
       imageUrl:
-        "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg",
+        "Project_2.png",
       isFeatured: true,
     },
     {
