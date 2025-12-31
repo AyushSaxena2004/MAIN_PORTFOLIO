@@ -5,41 +5,43 @@ export default function Certifications() {
   const certifications: Certification[] = [
     {
       id: '1',
-      title: 'AWS Certified Solutions Architect',
-      issuer: 'Amazon Web Services',
-      date: 'October 2023',
-      credentialUrl: 'https://aws.amazon.com',
-      icon: 'cloud',
+      title: 'Software Engineering',
+      issuer: 'Coursera',
+      date: 'March 2024',
+      credentialUrl: 'https://coursera.org/verify/specialization/A4U4HNDFQZNE',
+      icon: 'Software',
     },
     {
       id: '2',
-      title: 'Professional Scrum Master I (PSM I)',
-      issuer: 'Scrum.org',
-      date: 'August 2023',
-      credentialUrl: 'https://scrum.org',
-      icon: 'agile',
+      title: 'Data Analytics',
+      issuer: 'Udemy',
+      date: 'July 2025',
+      credentialUrl: 'ude.my/UC-ddffd652-d5ea-41a4-8031-8d728d5c03fc',
+      icon: 'Analytics',
     },
     {
       id: '3',
-      title: 'Meta Front-End Developer Certificate',
-      issuer: 'Meta (Coursera)',
-      date: 'June 2023',
-      icon: 'frontend',
+      title: 'C++ Certificate',
+      issuer: 'Coding Ninjas',
+      date: 'September 2022',
+      credentialUrl: 'certificate.codingninjas.com/verify/29d9b1b072fc8aa9',
+      icon: 'Cpp',
     },
     {
       id: '4',
-      title: 'Node.js Application Development',
-      issuer: 'The Linux Foundation',
-      date: 'March 2023',
-      icon: 'backend',
+      title: 'Implementation and Testing',
+      issuer: 'Coursera',
+      date: 'March 2024',
+      credentialUrl: 'https://coursera.org/verify/NYHLHZZ2PE7D',
+      icon: 'Implementation',
     },
   ];
 
   const achievements = [
     {
       icon: <Trophy className="w-6 h-6" />,
-      title: 'Hackathon Winner',
-      description: 'First place at TechCity Hackathon 2023',
+      title: 'Hackathon Joiner',
+      description: 'Runner up at college Hackathon 2023',
       date: 'November 2023',
     },
     {
@@ -51,17 +53,17 @@ export default function Certifications() {
     {
       icon: <BookOpen className="w-6 h-6" />,
       title: 'Technical Speaker',
-      description: 'Presented at JavaScript Conference 2023',
+      description: 'Presented Java Backend Concepts at Colleges',
       date: 'September 2023',
     },
   ];
 
   const getIconComponent = (iconType: string) => {
     const icons: { [key: string]: string } = {
-      cloud: '☁️',
-      agile: '🔄',
-      frontend: '⚛️',
-      backend: '🚀',
+      Software: '💻',
+      Analytics: '📈',
+      Cpp: '⌨️',
+      Implementation: '🛠️',
     };
     return icons[iconType] || '📜';
   };
